@@ -1,0 +1,8 @@
+To run the project we have to go to script.js pafe and open terminal anf run script as
+
+peerjs --port 3001
+
+
+And open another terminal and type
+
+npm run devStart   

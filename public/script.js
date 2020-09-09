@@ -4,7 +4,7 @@ const videoGrid = document.getElementById("video-grid");
 //Here we are assigning the peer server port.
 const myPeer = new Peer(undefined, {
   host: "/",
-  port: "8001",
+  PORT: "8001",
 });
 const myVideo = document.createElement("video");
 myVideo.muted = true;

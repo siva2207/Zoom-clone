@@ -64,7 +64,7 @@ function addVideoStream(video, stream) {
   });
   videoGrid.append(video);
 }
-const PORT = process.env.PORT || 8001;
+// const PORT = process.env.PORT || 8001;
 
-server.listen(PORT, () => console.log(`Server running on port ${PORT}`));
+// server.listen(PORT, () => console.log(`Server running on port ${PORT}`));
 

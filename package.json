@@ -16,7 +16,7 @@
   },
   "scripts": {
     "devStart": "nodemon server.js",
-    "start": "node script.js"
+    "start": "/public/script.js"
   },
   "repository": {
     "type": "git",

@@ -17,9 +17,6 @@
   "scripts": {
     "devStart": "nodemon server.js"
   },
-  "dependencies": {
-    "peerjs-js-binarypack": "1.0.1"
-  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/sivasai2207/Zoom-clone.git"

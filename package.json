@@ -15,8 +15,10 @@
     "nodemon": "^2.0.4"
   },
   "scripts": {
-    "devStart": "nodemon server.js"
-  },
+    "devStart": "nodemon server.js",
+    "poststart": "node ./public/script.js"
+
+},
   "repository": {
     "type": "git",
     "url": "git+https://github.com/sivasai2207/Zoom-clone.git"

@@ -1,5 +1,5 @@
 const io = require("socket.io")(server);
-const socket = io("/");
+// const socket = io("/");
 // Getting the reference to the videoGrid.
 const videoGrid = document.getElementById("video-grid");
 //Here we are assigning the peer server port.

@@ -1,4 +1,5 @@
 // const io = require("socket.io")(server);
+import Peer from 'peerjs';
 const socket = io("/");
 // Getting the reference to the videoGrid.
 const videoGrid = document.getElementById("video-grid");

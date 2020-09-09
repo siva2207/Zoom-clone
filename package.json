@@ -16,8 +16,7 @@
     "nodemon": "^2.0.4"
   },
   "scripts": {
-    "devStart": "nodemon server.js",
-    "start": "peerjs --port 8001"
+    "devStart": "nodemon server.js"
   },
   "repository": {
     "type": "git",

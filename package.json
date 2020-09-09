@@ -15,8 +15,7 @@
     "nodemon": "^2.0.4"
   },
   "scripts": {
-    "devStart": "nodemon server.js",
-    "start": "/public/script.js"
+    "devStart": "nodemon server.js"
   },
   "repository": {
     "type": "git",

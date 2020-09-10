@@ -18,6 +18,7 @@
     "express": "^4.17.1",
     "npm-run-all": "^4.1.5",
     "socket.io": "^2.3.0",
+    "peerjs": "^1.3.1",
     "uuid": "^8.3.0",
     "nodemon": "^2.0.4"
   },
@@ -25,8 +26,7 @@
     "nodemon": "^2.0.4"
   },
   "scripts": {
-    "start": "concurrently \"node server.js\" \"peerjs --port 8001\"",
-    "peerStart": "public/peerjs --port ${PORT:=8001}",
+    "start": "concurrently \"nodemon server.js\" \"peerjs --port 8001\"",
     "devStart": "nodemon server.js"
   },
 

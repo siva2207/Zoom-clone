@@ -3,6 +3,8 @@ const app = express();
 const server = require("http").Server(app);
 const io = require("socket.io")(server);
 const { v4: uuidV4 } = require("uuid");
+const { PeerServer } = require('peer');
+ const peerServer = PeerServer({ port: 8001, path: '/' });
 // setting up owe express server, we are rendering owr views from 'ejs'
 app.set("view engine", "ejs");
 /* now we are going to setup our static folder,

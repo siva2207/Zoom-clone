@@ -3,7 +3,7 @@ const socket = io("/");
 const videoGrid = document.getElementById("video-grid");
 //Here we are assigning the peer server port.
 const myPeer = new Peer(undefined, {
-   port: "8001",
+   port: 8001,
    path: '/'
 });
 const myVideo = document.createElement("video");

@@ -26,7 +26,7 @@
     "nodemon": "^2.0.4"
   },
   "scripts": {
-    "start": "concurrently \"npm:node server.js\" \"npm:peerjs --port 8001\"",
+    "start": "concurrently \"node server.js\" \"npm:peer --port 8001\"",
     "peer": "./public/script.js",
     "devStart": "nodemon server.js"
   },

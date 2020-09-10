@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "public": {
-    "peerjs": "./public/script.js"
+    "peerjs": "./public/script"
   },
   "keywords": [
     "peerjs",

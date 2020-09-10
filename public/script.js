@@ -5,6 +5,7 @@ const videoGrid = document.getElementById("video-grid");
 
 const myPeer = new Peer(undefined, {
   host: "/",
+  port: "8001",
   
 });
 const myVideo = document.createElement("video");

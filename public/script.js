@@ -1,16 +1,11 @@
-// const io = require("socket.io")(server);
 const socket = io("/");
 // Getting the reference to the videoGrid.
 const videoGrid = document.getElementById("video-grid");
 //Here we are assigning the peer server port.
-
-// const PORT = process.env.PORT || 8001;
-
-// server.listen(PORT, () => console.log(`Server running on port ${PORT}`));
-
 const myPeer = new Peer(undefined, {
   host: "/",
   port: "8001",
+  
 });
 const myVideo = document.createElement("video");
 myVideo.muted = true;
@@ -68,3 +63,6 @@ function addVideoStream(video, stream) {
   });
   videoGrid.append(video);
 }
+//  const PORT = process.env.PORT || 8001;
+//  server.listen(PORT, () => console.log(`Server running on port ${PORT}`));
+

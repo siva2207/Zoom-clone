@@ -19,6 +19,7 @@
     "start": "concurrently \"nodemon server.js\" \"peerjs --port 8001\"",
     "devStart": "nodemon server.js"
   },
+
   "repository": {
     "type": "git",
     "url": "git+https://github.com/sivasai2207/Zoom-clone.git"

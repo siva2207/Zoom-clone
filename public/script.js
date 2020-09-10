@@ -1,5 +1,3 @@
-// const io = require("socket.io")(server);
-// import Peer from 'peerjs';
 const socket = io("/");
 // Getting the reference to the videoGrid.
 const videoGrid = document.getElementById("video-grid");
@@ -65,6 +63,6 @@ function addVideoStream(video, stream) {
   });
   videoGrid.append(video);
 }
- const PORT = process.env.PORT || 8001;
- server.listen(PORT, () => console.log(`Server running on port ${PORT}`));
+//  const PORT = process.env.PORT || 8001;
+//  server.listen(PORT, () => console.log(`Server running on port ${PORT}`));
 
